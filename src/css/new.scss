@@ -22,4 +22,25 @@
       width: 270px;
       background-color: #F2F3F5;
       display: flex;
- 
+      justify-content: center;
+      align-items: center;
+    }
+    &-textContent{
+      text-align: center;
+      margin-top: 15px;
+    }
+    &-desc{
+      @include text($rale, 500, 18px, 0, $black);
+    }
+    &-price{
+      @include text($sans, 600, 18px, 0, #FF9619);
+      margin-top: 5px;
+    }
+  }
+  &__bot{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

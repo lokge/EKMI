@@ -1,0 +1,101 @@
+.footer{
+  padding: 80px 0 29px;
+  background-color: #5B5B5B;
+  width: 100%;
+  &__main{
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-between;
+  }
+  &__block{
+    &:nth-of-type(2){
+      display: flex;
+      justify-content: center;
+      column-gap: 97px;
+    }
+    &:nth-of-type(3){
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+      max-width: 271px;
+      gap: 32px;
+    }
+  }
+  &__list{
+    &-item {
+      @include text($rale, 500, 13px, 0, white);
+      letter-spacing: 0.16em;
+      text-transform: capitalize;
+      margin-bottom: 25px;
+      max-width: 133px;
+    }
+    &-link{
+      color: white;
+      &:hover{
+        color: rgba(206,206,206,0.87);
+      }
+    }
+  }
+  &__logos{
+    &-link{
+      margin-right: 15px;
+    }
+  }
+  &__btn{
+    padding: 7px 11px 8px;
+    background-color: #FF9619;
+    @include text($sans, 600, 13px, 0, white);
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+      transform: scale(1.1);
+      transition: 0.3s;
+      background-color: rgba(248,143,25,0.87);
+    }
+  }
+  &__phoneLink{
+    @include text($sans, 600, 13px, 0, white);
+    text-transform: uppercase;
+  }
+  &__copyright{
+    text-align: center;
+    @include text($rale, 500, 12px, 0, white);
+    letter-spacing: 0.16em;
+    text-transform: capitalize;
+  }
+  &__overlay{
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(24, 24, 24, 0.7);
+    backdrop-filter: blur(4.5px);
+  }
+}
+.questions__popup-form{
+  box-shadow: 0 0 45px 13px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0 0 45px 13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 0 45px 13px rgba(0,0,0,0.75);
+}
+.questions__popup-box{
+  position: relative;
+}
+.questions__popup-dec{
+  position: absolute;
+  top: -266px;
+  left: -357px;
+}
+.questions__popup-exit{
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}

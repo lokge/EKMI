@@ -1,0 +1,84 @@
+.questions {
+  margin: 161px 0 500px;
+  background-color: #A9C2BE;
+
+  &__block{
+    display: flex;
+    justify-content: center;
+  }
+
+  &__box{
+    position: relative;
+  }
+
+  &__imgCont{
+    margin-right: 220px;
+  }
+
+  &__form {
+    position: absolute;
+    top: 50%;
+    right: -185px;
+    transform: translateY(-50%);
+    background-color: white;
+    width: 470px;
+    padding: 31px 49px 17px 50px;
+  }
+
+  &__notification {
+    @include text($rale, 500, 14px, 0, #FF9619)
+  }
+
+  &__title {
+    @include text($rale, 700, 28px, 0, $black);
+    text-transform: uppercase;
+    margin: 15px 0;
+  }
+
+  &__input {
+    @include text($rale, 400, 14px, 0, $black);
+    border-style: none;
+    border-bottom: 1px solid #D1D1D1;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 25px;
+
+    &:active {
+      border-style: none;
+      padding: 5px;
+    }
+  }
+
+  &__label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    @include text($rale, 400, 11px, 13px, $black);
+    max-width: 250px;
+    margin-bottom: 29px;
+  }
+
+  &__checkbox {
+    border: 1px solid #D1D1D1;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  &__btn {
+    padding: 13px 20px 14px;
+    background-color: #FF9619;
+    border: none;
+    @include text($rale, 700, 16px, 0, white);
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  &__dec{
+    position: absolute;
+    right: 223px;
+    top: -40px;
+    @include text($rale, 800, 160px, 0, #FF9619);
+    z-index: 2;
+  }
+}

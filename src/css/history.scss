@@ -1,0 +1,118 @@
+.history{
+  padding: 97px 0 80px;
+  &__block{
+    display: flex;
+    &:first-child{
+      margin-bottom: 192px;
+    }
+  }
+  &__svg{
+    background-color: #A9C2BE;
+  }
+  &__imgCont{
+    background-color: #A9C2BE;
+    position: relative;
+    &-line{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-color: #5B5B5B;
+      height: 20px;
+      width: 95%;
+      &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 50px;
+        background-color: #FF9619;
+      }
+    }
+  }
+  &__img-first{
+    margin-top: 30.09px;
+  }
+  &__text{
+    position: relative;
+    padding: 107px 0 99px 30px;
+    width: 100%;
+    height: 453px;
+    background-color: #5B5B5B;
+    max-width: 375px;
+    max-height: 453px;
+    &-title{
+      line-height: 35px;
+      margin-bottom: 30px;
+      color: white;
+    }
+    &-subtitle{
+      @include text($rale, 500, 20px, 0, white);
+    }
+    &-desc{
+      margin: 15px 0 30px;
+      @include text($rale, 300, 18px, 24px, white);
+      letter-spacing: 0.1em;
+    }
+  }
+  &__furniture{
+    position: absolute;
+    top: -40px;
+    right: 25px;
+    padding: 50px 49px 22px 11px;
+    background-color: #FF9619;
+    @include text($rale, 400, 15px, 0, white);
+    letter-spacing:  0.245em;
+    height: 110px;
+  }
+  &__ourHistory{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    &-title{
+      color: $black;
+      margin: 0;
+    }
+    &-text{
+      position: absolute;
+      background-color: #5B5B5B;
+      left: 0;
+      top: 80px;
+      padding: 51px 42px 50px;
+      max-width: 540px;
+      &::before{
+        content: '';
+        position: absolute;
+        bottom: -27px;
+        right: 70px;
+        height: 55px;
+        width: 101px;
+        background-color: #FF9619;
+      }
+    }
+    &__block{
+      &:last-child{
+        max-width: calc(90% - 20px);
+      }
+    }
+    &-img{
+      margin-top: 51px;
+      width: 100%;
+    }
+    &-desc{
+      margin: 25px 0 0;
+    }
+  }
+  &__years{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+  }
+  &__year{
+    @include text($rale, 300, 25px, 0, $black);
+  }
+  &__mainYear{
+    @include text($rale, 600, 144px, 0, rgba(52, 52, 52, 0.1));
+  }
+}
