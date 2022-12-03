@@ -1,7 +1,7 @@
 let newSwipeList = document.querySelector('.new__swipe-block')
 let lastSwipeList = document.querySelector('.last__swipe-block')
 
-let url = 'http://localhost:6969/items'
+let url = 'http://localhost:6969/items?'
 
 const getItems = () => {
     fetch(url)
