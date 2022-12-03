@@ -1,0 +1,19 @@
+.header{
+  background-color: white;
+  &__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 62px;
+  }
+  &__list{
+    display: flex;
+    column-gap: 62px;
+    &-item{
+      @include text($rale, 600px, 13px, 0, $black);
+      &-link{
+        color: $black;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.new{
+  padding: 160px 0 97px;
+  &__title{
+    @include text($rale, 600, 35px, 0, $black);
+    &:first-letter{
+      @include text($rale, 700, 35px, 0, #FF9619);
+    }
+    margin-bottom: 80px;
+  }
+  &__swipe{
+    &-block{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 80px;
+    }
+    &-box{
+      margin-right: 80px;
+    }
+    &-imgCont{
+      height: 278px;
+      width: 270px;
+      background-color: #F2F3F5;
+      display: flex;
+ 
