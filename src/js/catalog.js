@@ -1,11 +1,12 @@
 let catalogList = document.querySelector('.catalog__main-content')
 let filterSelectorCatalog = document.querySelector('.catalog__top-select')
 
-let url = 'http://localhost:6969/items'
+let url = 'http://localhost:6969/items?'
 
 let filterCatalog = ''
 
 const getCatalogItems = () => {
+    catalogList.innerHTML = ''
     fetch(url + `${filterCatalog.length ? 'model=' + filterCatalog : ''}`)
         .then((resolve) => resolve.json())
         .then((resolve) => {
@@ -19,9 +20,7 @@ const getCatalogItems = () => {
             })
         })
         .catch((err) => alert(err))
-
 }
-
 
 filterSelectorCatalog.addEventListener('change', (e) => {
     filterCatalog = e.target.value

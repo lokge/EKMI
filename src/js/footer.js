@@ -1,6 +1,5 @@
 let questBtn = document.querySelector('.footer__btn')
 let overlay = document.querySelector('.footer__overlay')
-let exit = document.querySelector('.questions__popup-exit')
 
 
 questBtn.addEventListener('click', () => {
