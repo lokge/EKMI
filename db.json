@@ -12,7 +12,7 @@
       "id": 2,
       "title": "Midas",
       "price": "15000",
-      "model": "стул",
+      "model": "chair",
       "image": "https://static.wixstatic.com/media/469af7_eb06ffc0929d4290aa02d2d2938b8823~mv2.jpg/v1/fill/w_372,h_280,al_c,q_80,usm_0.66_1.00_0.01/469af7_eb06ffc0929d4290aa02d2d2938b8823~mv2.webp",
       "link": ""
     },
@@ -52,7 +52,7 @@
       "id": 7,
       "title": "Elizabet",
       "price": "15000",
-      "model": "стул",
+      "model": "chair",
       "image": "https://static.wixstatic.com/media/469af7_32747a34d4aa4279bc81d7d52413888d~mv2.jpg/v1/fill/w_372,h_280,al_c,q_80,usm_0.66_1.00_0.01/469af7_32747a34d4aa4279bc81d7d52413888d~mv2.webp",
       "link": ""
     },
@@ -142,6 +142,214 @@
       "price": "42000",
       "model": "sofa",
       "image": "https://static.wixstatic.com/media/469af7_7ed45c2ece7744fb8584ba87bcc93713~mv2.jpg/v1/fill/w_372,h_280,al_c,q_80,usm_0.66_1.00_0.01/469af7_7ed45c2ece7744fb8584ba87bcc93713~mv2.webp",
+      "link": ""
+    },
+    {
+      "id": 19,
+      "title": "Mega Stul",
+      "price": "9000",
+      "model": "chair",
+      "image": "http://www.luceitalia.me/cache/thumb/6/270_203/L2ltcG9ydGVkLzI1Mi8xMV8tU0xJTS1zdG9saWNhXy1TVEVFTC1zdG9fME53clIuanBn.jpg",
+      "link": ""
+    },
+    {
+      "id": 20,
+      "title": "Super Stul",
+      "price": "3000",
+      "model": "chair",
+      "image": "https://svetdeko.ru/upload/iblock/260/26073d19eed89db3732d62cf9d99130b.jpg",
+      "link": ""
+    },
+    {
+      "id": 21,
+      "title": "Stul Obiknovenniy",
+      "price": "5000",
+      "model": "chair",
+      "image": "http://iloveloft.ru/image/cache/full/cb7e3fd8ae647fd8c12e607004b3018950ab5a1e-270x203.jpg",
+      "link": ""
+    },
+    {
+      "id": 22,
+      "title": "Gassing Mattress",
+      "price": "10000",
+      "model": "mattress",
+      "image": "https://www.momdot.com/wp-content/uploads/2009/11/download.jpg",
+      "link": ""
+    },
+    {
+      "id": 23,
+      "title": "Grob Mattress",
+      "price": "16000",
+      "model": "mattress",
+      "image": "https://static.tildacdn.com/tild6262-3033-4436-a335-383030626233/4004-1_1800.jpg",
+      "link": ""
+    },
+    {
+      "id": 24,
+      "title": "Anatomic Mattress",
+      "price": "11000",
+      "model": "mattress",
+      "image": "https://static.baza.farpost.ru/v/1525661125967_bulletin",
+      "link": ""
+    },
+    {
+      "id": 25,
+      "title": "Letta-Bruno Mattress",
+      "price": "14000",
+      "model": "mattress",
+      "image": "http://otdyh-i-son.alloy.ru/media/images/2012/08/09/big/57f5e502-bea1-4e90-9584-bf849fb8a3e1.jpeg",
+      "link": ""
+    },
+    {
+      "id": 26,
+      "title": "Ormatek Como",
+      "price": "7090",
+      "model": "puf",
+      "image": "https://www.vashmatrass.ru/cache/product/show/bigproduct-145440838474948700.jpeg",
+      "link": ""
+    },
+    {
+      "id": 27,
+      "title": "Bitel Classic",
+      "price": "4000",
+      "model": "puf",
+      "image": "https://mebleder.ru/upload/resize_cache/iblock/21b/270_320_1/9tf639q83liul9y0yelcrh40m18by5x0.jpg",
+      "link": ""
+    },
+    {
+      "id": 28,
+      "title": "Ottomans Designbest",
+      "price": "8000",
+      "model": "puf",
+      "image": "https://avatars.mds.yandex.net/i?id=1b92392e1e3c3d4a938875efd65b89ae_sr-4576218-images-thumbs&n=13",
+      "link": ""
+    },
+    {
+      "id": 29,
+      "title": "Dadli SleepArt",
+      "price": "12000",
+      "model": "puf",
+      "image": "https://www.vashmatrass.ru/files/images/ecommerce/4-4.jpeg",
+      "link": ""
+    },
+    {
+      "id": 30,
+      "title": "Mega Puf",
+      "price": "12000",
+      "model": "puf",
+      "image": "https://www.vashmatrass.ru/cache/product/show/1-162.jpeg",
+      "link": ""
+    },
+    {
+      "id": 31,
+      "title": "Red Office",
+      "price": "5000",
+      "model": "armchair",
+      "image": "https://avatars.mds.yandex.net/i?id=b89eb069ec673d96c5ad9e3f8bd34f78_sr-5644515-images-thumbs&n=13",
+      "link": ""
+    },
+    {
+      "id": 32,
+      "title": "Oppo Armchair",
+      "price": "8200",
+      "model": "armchair",
+      "image": "https://avatars.mds.yandex.net/i?id=2a0000017a0753dfab309899f100e56eee62-4571053-images-thumbs&n=13",
+      "link": ""
+    },
+    {
+      "id": 33,
+      "title": "Bibendum Armchair",
+      "price": "8200",
+      "model": "armchair",
+      "image": "https://avatars.mds.yandex.net/i?id=3f2f4b1789b31f3f0e61928ccb53a1f0-4577698-images-thumbs&n=13",
+      "link": ""
+    },
+    {
+      "id": 34,
+      "title": "Bumer Armchair",
+      "price": "50000",
+      "model": "armchair",
+      "image": "https://avatars.mds.yandex.net/i?id=e516fb04db8a396022a3dba08644daf8_sr-5859245-images-thumbs&n=13",
+      "link": ""
+    },
+    {
+      "id": 35,
+      "title": "SleepArt Litania",
+      "price": "20000",
+      "model": "bed",
+      "image": "https://www.vashmatrass.ru/files/images/ecommerce/1-100.jpeg",
+      "link": ""
+    },
+    {
+      "id": 36,
+      "title": "Vita Mia Woodex",
+      "price": "36000",
+      "model": "bed",
+      "image": "https://www.vashmatrass.ru/files/images/ecommerce/bigproduct-149156379927905300.jpeg",
+      "link": ""
+    },
+    {
+      "id": 37,
+      "title": "SleepArt Rodeo",
+      "price": "32000",
+      "model": "bed",
+      "image": "https://avatars.mds.yandex.net/i?id=dfbf29bf474f0a6ad392e923bf681b44_sr-4302648-images-thumbs&n=13",
+      "link": ""
+    },
+    {
+      "id": 38,
+      "title": "Banger Rodeo",
+      "price": "28000",
+      "model": "bed",
+      "image": "https://avatars.mds.yandex.net/i?id=69a779944aee31dcef1175f217ca355a_sr-7025901-images-thumbs&n=13",
+      "link": ""
+    },
+    {
+      "id": 39,
+      "title": "Aprio Kras",
+      "price": "23000",
+      "model": "bed",
+      "image": "https://avatars.mds.yandex.net/i?id=5566fafc5137cce31d23de3a2096a35c-5208951-images-thumbs&n=13",
+      "link": ""
+    },
+    {
+      "id": 40,
+      "title": "Venice John",
+      "price": "50200",
+      "model": "bed",
+      "image": "https://avatars.mds.yandex.net/i?id=73eb31d8f8a1b63ae307df50a663edcd_sr-5232192-images-thumbs&n=13",
+      "link": ""
+    },
+    {
+      "id": 41,
+      "title": "Spavace sobe Bonaldo",
+      "price": "32000",
+      "model": "bed",
+      "image": "https://avatars.mds.yandex.net/i?id=5e5b0e0416fd9592341a46991580c711-4443859-images-thumbs&n=13",
+      "link": ""
+    },
+    {
+      "id": 42,
+      "title": "Letta Eton-Dori",
+      "price": "23000",
+      "model": "bed",
+      "image": "https://avatars.mds.yandex.net/i?id=f608495fc6b00c14ece12ea28e1773cd_sr-4551157-images-thumbs&n=13",
+      "link": ""
+    },
+    {
+      "id": 43,
+      "title": "Vash DelPierro",
+      "price": "25000",
+      "model": "bed",
+      "image": "https://avatars.mds.yandex.net/i?id=7dd68a4f90e60be49ab9ad224177ced5-4373855-images-thumbs&n=13",
+      "link": ""
+    },
+    {
+      "id": 44,
+      "title": "Francesco Rossi Denver",
+      "price": "32000",
+      "model": "bed",
+      "image": "https://avatars.mds.yandex.net/i?id=8fc7cbd0365b557a17bab78bc48e4d0a_sr-4479702-images-thumbs&n=13",
       "link": ""
     }
   ],

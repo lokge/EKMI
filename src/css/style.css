@@ -678,6 +678,298 @@ option {
   font-family: Raleway, sans-serif;
 }
 
+.individual__cards {
+  padding: 55px 0 80px;
+  position: relative;
+}
+.individual__cards-bg-left {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 93px;
+  background-color: #A9C2BE;
+  min-height: 329px;
+  min-width: 50%;
+  max-height: 329px;
+  max-width: 50%;
+}
+.individual__cards-bg-right {
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 55px;
+  background-color: #5B5B5B;
+  min-height: 535px;
+  min-width: 50%;
+  max-height: 535px;
+  max-width: 50%;
+}
+.individual__cards-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 160px;
+}
+.individual__cards-block-second {
+  position: relative;
+  margin-top: 350px;
+  padding: 160px 0 0;
+}
+.individual__cards-block:last-of-type {
+  padding: 160px 0 0;
+}
+.individual__cards-box {
+  position: relative;
+}
+.individual__cards-box:first-of-type {
+  max-width: 381px;
+  margin: 115px 90px 0 0;
+}
+.individual__cards-box:last-of-type {
+  position: relative;
+}
+.individual__cards-box:last-of-type::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.individual__cards-box-text {
+  position: absolute;
+  top: -40px;
+  right: -30px;
+  padding: 57px 49px 15px 11px;
+  background-color: #FF9619;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 0.245em;
+  height: 110px;
+}
+.individual__cards-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+.individual__cards-title:first-letter {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FF9619;
+}
+.individual__cards-desc {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22.95px;
+  color: white;
+  margin: 25px 0;
+  letter-spacing: 0.1em;
+}
+.individual__cards-btn {
+  border: none;
+}
+.individual__cards-image {
+  position: relative;
+}
+.individual__cards-image::before {
+  z-index: -10;
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 40px;
+  border: 5px solid #CCB2A3;
+  width: 691px;
+  height: 461px;
+}
+.individual__cards-image-img {
+  z-index: 100;
+}
+.individual__cards-mainTitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 129px;
+  color: #5B5B5B;
+  position: absolute;
+  top: -69px;
+  right: 0;
+}
+.individual__cards-text {
+  margin-top: 52px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 864px;
+  height: 478px;
+  z-index: -1;
+  background-color: #5B5B5B;
+  padding: 42px 135px 43px 290px;
+}
+.individual__cards-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 25px;
+  letter-spacing: 0.05em;
+}
+.individual__cards-subdesc {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24.3px;
+  color: white;
+  letter-spacing: 0.1em;
+}
+.individual__cards-textThird {
+  padding-top: 100px;
+  max-width: 400px;
+  margin-right: 70px;
+}
+.individual__cards-textThird-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #black;
+  margin-bottom: 25px;
+  letter-spacing: 0.05em;
+}
+.individual__cards-textThird-desc {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24.3px;
+  color: #343434;
+  letter-spacing: 0.1em;
+}
+.individual__cards-imageCard {
+  position: relative;
+}
+.individual__cards-imageCard::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: -34px;
+  right: -225px;
+  background-color: #A9C2BE;
+  width: 610px;
+  height: 301px;
+  overflow: hidden;
+}
+.individual__calc-block {
+  background: url("../images/individual/individual4.png") center/cover no-repeat;
+  height: 536px;
+  width: 100%;
+}
+.individual__calc-box {
+  position: relative;
+  width: 100%;
+}
+.individual__calc-form {
+  position: absolute;
+  right: 204px;
+  top: 50%;
+}
+.individual__howWork {
+  padding: 160px 0;
+}
+.individual__howWork-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.individual__howWork-block:last-of-type {
+  padding: 167px 130px 166px 116px;
+  position: relative;
+  background: #5B5B5B;
+  max-height: 496px;
+}
+.individual__howWork-block:last-of-type::before {
+  content: "";
+  position: absolute;
+  right: 135px;
+  top: -55px;
+  background-color: #FF9619;
+  width: 77px;
+  height: 83px;
+}
+.individual__quality {
+  padding: 160px 0;
+}
+.individual__quality-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.individual__quality-card:nth-of-type(2) {
+  margin: 86px 0 80px;
+}
+.individual__quality-card-image-before {
+  position: relative;
+}
+.individual__quality-card-image-before::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -35px;
+  background-color: #FF9619;
+  z-index: -2;
+  width: 59px;
+  height: 58px;
+}
+.individual__quality-card-text {
+  position: relative;
+  max-width: 535px;
+}
+.individual__quality-card-text-before::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -35px;
+  background-color: #FF9619;
+  z-index: -2;
+  width: 59px;
+  height: 58px;
+}
+.individual__quality-card-text-second {
+  padding-top: 90px;
+}
+.individual__quality-card-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  color: #343434;
+  margin-bottom: 42px;
+  letter-spacing: 0.05em;
+}
+.individual__quality-card-title:first-letter {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44.62px;
+  color: white;
+}
+.individual__quality-card-desc {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24.3px;
+  color: #343434;
+  letter-spacing: 0.07em;
+}
+
+.contacts__facts {
+  padding: 160px 0;
+}
+
 .footer {
   padding: 80px 0 29px;
   background-color: #5B5B5B;
