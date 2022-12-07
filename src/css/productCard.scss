@@ -1,0 +1,116 @@
+.productCard{
+  &__homePage{
+    padding: 35px 0 160px;
+    &-block{
+      display: flex;
+      gap: 38px;
+      align-items: center;
+      justify-content: center;
+    }
+    &-text{
+      max-width: 380px;
+    }
+    &-title{
+      @include text($rale, 700, 35px, 0, $black);
+      text-transform: uppercase;
+    }
+    &-subtitle{
+      @include text($rale, 500, 18px, 0, $black);
+      text-transform: capitalize;
+      margin: 30px 0 15px;
+    }
+    &-desc{
+      @include text($rale, 300, 18px, 27px, $black);
+    }
+    &-price{
+      @include text($sans, 600, 20px, 0, #FF9619);
+      margin: 15px 0 30px;
+    }
+  }
+  &__description{
+    padding: 160px 0;
+    &-content{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    &-textCont{
+     display: flex;
+      margin: 20px 0;
+      width: 100%;
+      &:first-of-type{
+        margin: 0 0 20px;
+      }
+      &:last-of-type{
+        margin: 20px 0 0;
+      }
+    }
+    &-descBlock{
+      max-width: 1275px;
+      width: 100%;
+      margin-bottom: 25px;
+    }
+    &-headList{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &-blockList{
+      width: 100%;
+      display: none;
+      flex-wrap: wrap;
+      padding: 49px 27px 28px 70px;
+      border-left: 1px solid rgba(52, 52, 52, 0.2);
+      border-right: 1px solid rgba(52, 52, 52, 0.2);
+      border-bottom: 1px solid rgba(52, 52, 52, 0.2);
+      border-top: none;
+      &-active{
+        display: flex;
+      }
+    }
+    &-headItem{
+      width: 100%;
+      text-align: center;
+      padding: 29px 0;
+      background: #F2F3F5;
+      border: 1px solid rgba(52, 52, 52, 0.2);
+      @include text($rale, 500, 16px, 0, $black);
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      &:hover{
+        background-color: rgba(216,216,216,0.87);
+      }
+      &-active{
+        background-color: white;
+        border-top: 1px solid rgba(52, 52, 52, 0.2);
+        border-left: 1px solid rgba(52, 52, 52, 0.2);
+        border-bottom: 1px solid white;
+        border-right: none;
+        &:last-of-type{
+          border-right: 1px solid rgba(52, 52, 52, 0.2);
+        }
+        &:hover{
+          background-color: white;
+        }
+      }
+    }
+    &-info{
+      display: flex;
+      @include text($rale, 500, 16px, 20.4px, $black);
+      letter-spacing: 0.1em;
+      max-width: 155px;
+      min-width: 155px;
+      margin-right: 55px;
+      &-icon{
+        margin-right: 21px;
+      }
+    }
+    &-desc{
+      @include text($rale, 300, 14px, 17.85px, $black);
+      letter-spacing: 0.1em;
+    }
+  }
+}
+

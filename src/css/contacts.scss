@@ -2,4 +2,61 @@
   &__facts{
     padding: 160px 0;
   }
+  &__image{
+    &-content{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  &__addresses{
+    padding: 160px 0 0;
+    &-topContent{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 80px;
+      &-box{
+        padding: 30px 143px 27px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 570px;
+        height: 431px;
+        background: url("../images/contacts/contactsCards1.png") center/cover no-repeat;
+      }
+    }
+    &-title{
+      @include text($rale, 700, 25px, 29.35px, #FF9619);
+    }
+    &-subtitle{
+      @include text($rale, 600, 16px, 18.78px, white)
+    }
+    &-desc{
+      @include text($rale, 400, 16px, 18.78px, white);
+      &-logo{
+        margin-right: 13px;
+      }
+    }
+    &-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      &-box{
+        background: url("../images/contacts/contactsCards2.png") center/cover no-repeat;
+        width: 370px;
+        height: 302px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 75px 65px 75px 66px;
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 .questions {
-  margin: 161px 0 500px;
+  margin: 161px 0;
   background-color: #A9C2BE;
 
   &__block{
@@ -76,7 +76,7 @@
 
   &__dec{
     position: absolute;
-    right: 223px;
+    right: 235px;
     top: -40px;
     @include text($rale, 800, 160px, 0, #FF9619);
     z-index: 2;
