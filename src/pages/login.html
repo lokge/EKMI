@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login EKMI</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <nav class="header__nav">
+            <div class="header__links">
+                <ul class="header__list">
+                    <li class="header__list-item"><a href="catalog.html" class="header__list-item">Каталог</a></li>
+                    <li class="header__list-item"><a href="individual.html" class="header__list-item">Индивидуальная мебель</a></li>
+                    <li class="header__list-item"><a href="contacts.html" class="header__list-item">Контакты</a></li>
+                </ul>
+            </div>
+            <h1 class="header__logo"><a href="../../index.html" class="header__logo-link"><img src="../images/header/mainLogo.png" alt="Company Logo" class="header__logo-img"></a></h1>
+            <div class="header__links">
+                <div class="header__list header__list-second">
+                    <p class="header__list-item"><a href="" class="header__list-item">О компании</a></p>
+                    <p class="header__list-item"><a href="tel:+38 (099)-638-45-37" class="header-phone header__list-item">+38 (099)-638-45-37</a></p>
+                    <p class="header__list-user header__list-item">
+                        <a href="login.html" class="header__list-user-loginLink">Войти</a>
+                    </p>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <section class="login">
+        <div class="container">
+            <div class="login__block">
+                <h2 class="login__title">Вход в аккаунт</h2>
+                <div class="login__topContent">
+                    <h3 class="login__subtitle">Впервые на сайте?</h3>
+                    <a href="registration.html" class="login__link">Зарегистрироваться</a>
+                </div>
+                <form class="login__form enter">
+                    <input class="login__input" type="email" placeholder="Email"/>
+                    <input class="login__input" type="password" placeholder="Password"/>
+                    <span class="login__error login-message"></span>
+                    <button type="submit" class="questions__btn login__btn">войти</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<script type="module" src="../js/login.js"></script>
+<script type="module" src="../js/user.js"></script>
+</body>
+</html>

@@ -17,7 +17,7 @@ const getCatalogItems = () => {
                 catalogList.innerHTML +=`
                 <div class="catalog__main-box">
                         <img style="width: 100%" src="${item.image}" alt="Image" class="catalog__main-img">
-                        <a href="${item.link}" class="catalog__main-desc">${item.title}</a>
+                        <a href="../pages/productCard.html#${item.id}" class="catalog__main-desc">${item.title}</a>
                 </div>
                 `
             })

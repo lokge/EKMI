@@ -15,5 +15,23 @@
         color: $black;
       }
     }
+    &-user{
+      position: relative;
+      &-menu{
+        display: none;
+        background-color: #fff;
+        border: 1px solid #bdbdbd;
+        padding: 8px 15px;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        border-radius: 8px;
+        z-index: 4;
+      }
+      &:hover .header__list-user-menu{
+        display: block;
+        cursor: pointer;
+      }
+    }
   }
 }

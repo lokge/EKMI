@@ -1,14 +1,20 @@
+
+
 let newSwipeList = document.querySelector('.new__swipe-block')
 let lastSwipeList = document.querySelector('.last__swipe-block')
 
+
+
 let url = 'http://localhost:6969/items?'
+
+
 
 const getItems = () => {
     fetch(url)
         .then((resolve) => resolve.json())
         .then((resolve) => {
             resolve.forEach((item) => {
-                newSwipeList.innerHTML +=`
+                newSwipeList.innerHTML += `
                 <div class="new__swipe-box">
                 <div class="new__swipe-imgCont">
                 <img src="${item.image}" alt="content image" class="new__swipe-img">
@@ -19,7 +25,7 @@ const getItems = () => {
                 </a>
                 </div>
                 `
-                lastSwipeList.innerHTML +=`
+                lastSwipeList.innerHTML += `
                 <div class="new__swipe-box">
                 <div class="new__swipe-imgCont">
                 <img src="${item.image}" alt="content image" class="new__swipe-img">

@@ -1,0 +1,48 @@
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  &__block{
+    text-align: center;
+  }
+  &__title{
+    @include text($sans, 600, 35px, 0, #191919);
+  }
+  &__topContent{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0 ;
+  }
+  &__subtitle{
+    @include text($sans, 300, 15px, 0, #191919);
+  }
+  &__link{
+    @include text($sans, 300, 15px, 0, #FF9619);
+  }
+  &__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__input{
+    border: none;
+    border-bottom: 1px solid $black;
+    padding: 15px 5px;
+    width: 305px;
+    @include text($sans, 300, 10px, 0, $black);
+  }
+  &__btn{
+    margin-top: 25px;
+    position: relative;
+  }
+  &__error{
+    @include text($rale, 300, 12px, 0, #ff6464);
+    text-align: start;
+    margin: 15px 0 0;
+    display: none;
+  }
+}
