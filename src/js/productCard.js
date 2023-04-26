@@ -5,8 +5,8 @@
 
 
 
-let collection = document.querySelector('.productCard__homePage-subtitle')
 let title = document.querySelector('.productCard__homePage-title')
+let collection = document.querySelector('.productCard__homePage-subtitle')
 let price = document.querySelector('.productCard__homePage-price')
 let desc = document.querySelector('.productCard__homePage-desc')
 let image = document.querySelector('.productCard__homePage-image')
@@ -15,14 +15,20 @@ let db = fetch(`http://localhost:6969/items/${location.hash.slice(1)}`).then(res
 db.then(res => getInfo(res))
 let getInfo = (arg) => {
     title.textContent = `${arg.title}`
-    collection.textContent = `${arg.collection}`
+    collection.textContent = `Коллекция: ${arg.collection}`
     desc.textContent = `${arg.desc}`
-    title.textContent = `${arg.title}`
+    price.textContent = `${arg.price} UAH`
+    image.innerHTML = `
+    <img src="${arg.image}" alt="Product image">
+    `
+    desc.textContent = `
+    Модель «${arg.title}»- главным преимуществом этого дивана является мобильность. Модель состоит из нескольких совершенно независимых друг от друга частей. Это своего рода конструктор, который каждый может сложить по-своему и создать уникальный предмет интерьера.
+    `
 }
 
 console.log(location)
 
-// function getInfo(info) {
+// function getDescription(info) {
 //     getInfo.innerHTML = ''
 //     let arg = info[0].information
 //     argDesc.innerHTML += `
